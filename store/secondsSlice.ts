@@ -5,7 +5,7 @@ const secondsSlice = createSlice({
   initialState: 0,
   reducers: {
     increment: (state) => {
-      console.log("Current state:", state);
+      console.log("Current state:", state + 1);
       return state + 1;
     },
   },
